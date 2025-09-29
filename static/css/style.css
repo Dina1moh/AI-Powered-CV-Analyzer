@@ -1,0 +1,100 @@
+/* Custom styles for the interface */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.section-header {
+    font-size: 1.25rem;
+    color: #0d6efd;
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.result-item {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid #0d6efd;
+}
+
+.skill-badge {
+    background-color: #6c757d;
+    color: white;
+    padding: 0.35rem 0.65rem;
+    border-radius: 0.25rem;
+    margin: 0.2rem;
+    display: inline-block;
+}
+
+.match-percentage {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #198754;
+}
+
+.strength-item {
+    color: #198754;
+}
+
+.gap-item {
+    color: #dc3545;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .display-1 {
+        font-size: 3rem;
+    }
+}
+
+/* Hover effects */
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0d6efd;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0b5ed7;
+}

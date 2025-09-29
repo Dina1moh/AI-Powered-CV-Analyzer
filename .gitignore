@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+develop-eggs/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+
+# Virtual environment
+.venv/
+venv/
+env/
+/bin/activate
+/bin/activate.csh
+/bin/activate.fish
+/bin/activate.ps1
+/bin/activate.bat
+/bin/activate.sh
+/bin/activate.zsh
+/lib/python*/site-packages/
+
+# Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Miscellaneous
+.env
+.flaskenv
+instance/
+.ipynb_checkpoints/
+*.log

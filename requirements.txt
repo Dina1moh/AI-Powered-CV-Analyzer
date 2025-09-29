@@ -1,0 +1,8 @@
+pypdf
+langchain
+langchain-openai
+pydantic
+python-dotenv
+openai
+flask
+email-validator
