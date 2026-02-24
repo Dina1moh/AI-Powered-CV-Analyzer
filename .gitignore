@@ -64,3 +64,8 @@ instance/
 # =========================
 .DS_Store
 Thumbs.db
+v3/
+venv/
+__pycache__/
+*.pyc
+.env
