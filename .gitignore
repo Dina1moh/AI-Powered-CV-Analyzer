@@ -52,3 +52,15 @@ env/
 instance/
 .ipynb_checkpoints/
 *.log
+
+# =========================
+# Versioned env backups
+# =========================
+*.v3
+*.bak
+*.backup
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
