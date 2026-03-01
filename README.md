@@ -1,5 +1,5 @@
 
-# 📄 AI-Powered CV Analyzer V3
+# 📄 AI-Powered CV Analyzer 
 
 A powerful web application that extracts information from CVs (PDF format) and analyzes how well they match job descriptions using AI-powered analysis. **Now with RAG (Retrieval-Augmented Generation) Agent capabilities!**
 
